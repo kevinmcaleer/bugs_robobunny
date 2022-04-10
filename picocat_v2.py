@@ -162,6 +162,8 @@ class PicoCat():
             self.BACK_RIGHT_FOOT.value(-i)
             sleep(0.1)
 
+    
+
 cat = PicoCat()
 while True:
     cat.name = "Pixel"
